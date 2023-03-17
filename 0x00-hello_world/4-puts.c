@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
- * hello
+ * main - entry point
+ *
+ * description :A C program that prints with puts function
+ *
+ * Return: Alawys 0 (success)
  */
 int main(void)
 {
