@@ -6,7 +6,7 @@
  *
  * Return: alaeys 0 (success)
  */
-int main(void)
+int main (void)
 {
 	int p;
 	int q;
