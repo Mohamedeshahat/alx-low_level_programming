@@ -9,7 +9,8 @@
  * Return: alaeys 0 (success)
  */
 int main(void)
-{  int n;
+{
+	int n;
 	int m;
 
 	srand(time(0));
