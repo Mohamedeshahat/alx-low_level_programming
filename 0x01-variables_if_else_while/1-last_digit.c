@@ -9,7 +9,7 @@
  * Return: alaeys 0 (success)
  */
 int main(void)
-{  	int n;
+{  int n;
 	int m;
 
 	srand(time(0));
@@ -23,6 +23,5 @@ int main(void)
 	else if (m < 6 && m != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0", n, m);
 	printf("\n");
-
-        return (0);
-}
+	return (0);
+	{
