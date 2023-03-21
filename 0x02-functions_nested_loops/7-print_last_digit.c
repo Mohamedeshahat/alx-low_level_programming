@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_last_digit - ti print the last number
  * @n: jist paramter
  * return: last vlur
