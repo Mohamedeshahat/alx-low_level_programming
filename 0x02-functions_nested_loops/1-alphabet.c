@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * description: this is a c program that prints alphabets
+ *print_alphabet -make the alphabets
  *
  * Return: alaeys 0 (success)
  */
