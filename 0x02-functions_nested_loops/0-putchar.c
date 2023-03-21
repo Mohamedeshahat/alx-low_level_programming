@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -8,11 +8,14 @@
  */
 int main(void)
 {
-	int x[] = {'_','p','u','t','c','h','a','r'};
-	
-	for (int i = 0; i > 8; i++)
-	{
-		putchar(x[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
