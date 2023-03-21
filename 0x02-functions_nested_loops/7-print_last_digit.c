@@ -2,7 +2,7 @@
 /**
  * print_last_digit - ti print the last number
  * @n: jist paramter
- * return: last vlur
+ * Return: return thr last digit from the number
  */
 int print_last_digit(int n)
 {
