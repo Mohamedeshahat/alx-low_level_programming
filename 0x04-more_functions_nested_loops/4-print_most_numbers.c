@@ -6,12 +6,12 @@
  */
 void print_most_numbers(void)
 {
-	int x[] = {48, 49, 51, 53, 54, 55, 56, 57};
 	int i;
 
-	for (i = 0 ; i <= 8 ; i++)
+	for (i = '0' ; i <= '9' ; i++)
 	{
-		_putchar(x[i]);
+		if (!(i == '2' || i == '4'))
+		_putchar(i);
 	}
 	_putchar('\n');
 }
