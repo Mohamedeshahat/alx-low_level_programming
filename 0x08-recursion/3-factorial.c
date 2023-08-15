@@ -1,5 +1,5 @@
 #include"main.h"
-/*
+/**
  * factorial - return factorial number
  * @n: paramter
  * Return: factorial number
