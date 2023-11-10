@@ -10,17 +10,16 @@ int main(int argc, char *argv[])
 {
         int x;
 	int y= 0;
-
 	
+	if (argc > 2)	
 	{
 		printf("Error\n");
 	}
         for (x = 1; x < argc; x++)
         {
-		if (argv[x] == %d )
-		{	
+		
 		y += atoi(argv[x]);
-		}
+	
                
         }
 	printf("%d\n", y);
