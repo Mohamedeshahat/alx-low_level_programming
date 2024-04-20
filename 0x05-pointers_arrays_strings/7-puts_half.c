@@ -16,13 +16,13 @@ void puts_half(char *str)
 		length_of_the_string++;
 	}
 
-	if (length_of_the_string % 2 == 0)
+	if (length_of_the_string % 2 == 1)
 	{
-		n = length_of_the_string  / 2;
+		n = (length_of_the_string - 1) / 2;
 	}
 	else
 	{
-		n = (length_of_the_string - 1) / 2;
+		n = length_of_the_string  / 2;
 	}
 
 	for (index = n ; str[index]; index++)
